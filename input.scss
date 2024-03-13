@@ -43,7 +43,7 @@ body {
 
 $green-default: #01875f;
 $grey-default: #5f6368;
-$rounded-default: 6px;
+$rounded-default: 8px;
 
 .first_main_block {
   display: flex;
@@ -133,6 +133,8 @@ $rounded-default: 6px;
 
     span {
       display: flex;
+      align-items: center;
+      gap: 3px;
     }
   }
   .choice {
@@ -142,7 +144,7 @@ $rounded-default: 6px;
 
 .button {
   border: none;
-  min-height: 31px;
+  min-height: 33px;
   font-family: inherit;
   cursor: pointer;
   flex-wrap: wrap;
@@ -166,12 +168,13 @@ $rounded-default: 6px;
   }
 
   .image_container {
-    width: 160px;
+    width: 170px;
     height: 300px;
     -webkit-box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 1);
     -moz-box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 1);
     box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 1);
     border-radius: 13px;
+    margin: 5px 5px;
     overflow: hidden;
   }
 }

@@ -33,7 +33,7 @@ body {
   width: 75px;
   height: 75px;
   overflow: hidden;
-  border-radius: 6px;
+  border-radius: 8px;
 }
 .image_title_container .image img {
   width: 100%;
@@ -110,6 +110,8 @@ body {
 }
 .information .info_container span {
   display: flex;
+  align-items: center;
+  gap: 3px;
 }
 .information .choice {
   border: none !important;
@@ -117,7 +119,7 @@ body {
 
 .button {
   border: none;
-  min-height: 31px;
+  min-height: 33px;
   font-family: inherit;
   cursor: pointer;
   flex-wrap: wrap;
@@ -125,7 +127,7 @@ body {
 
 .grey-button {
   background-color: #e7e8e8;
-  border-radius: 6px;
+  border-radius: 8px;
   color: #5f6368;
 }
 
@@ -141,12 +143,13 @@ body {
   width: fit-content;
 }
 .button_images .image_container {
-  width: 160px;
+  width: 170px;
   height: 300px;
   -webkit-box-shadow: 0px 0px 12px -3px rgb(0, 0, 0);
   -moz-box-shadow: 0px 0px 12px -3px rgb(0, 0, 0);
   box-shadow: 0px 0px 12px -3px rgb(0, 0, 0);
   border-radius: 13px;
+  margin: 5px 5px;
   overflow: hidden;
 }
 
@@ -208,7 +211,7 @@ img {
   width: 180px;
   height: 12px;
   background-color: #e8eaed;
-  border-radius: 6px;
+  border-radius: 8px;
 }
 .rate_section .statistic .second div .progbar {
   position: absolute;
